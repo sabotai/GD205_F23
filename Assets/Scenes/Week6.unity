@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 249884916}
   - component: {fileID: 249884915}
   - component: {fileID: 249884914}
+  - component: {fileID: 249884919}
   m_Layer: 0
   m_Name: bird (8)
   m_TagString: Victim
@@ -431,6 +432,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &249884919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249884913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &317887867
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +459,7 @@ GameObject:
   - component: {fileID: 317887870}
   - component: {fileID: 317887869}
   - component: {fileID: 317887868}
+  - component: {fileID: 317887873}
   m_Layer: 0
   m_Name: bird (4)
   m_TagString: Victim
@@ -545,6 +561,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &317887873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317887867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &362430907
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,6 +782,7 @@ GameObject:
   - component: {fileID: 650994385}
   - component: {fileID: 650994384}
   - component: {fileID: 650994383}
+  - component: {fileID: 650994388}
   m_Layer: 0
   m_Name: bird (2)
   m_TagString: Victim
@@ -853,6 +884,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650994388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650994382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &666599032
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,6 +6278,7 @@ GameObject:
   - component: {fileID: 993565080}
   - component: {fileID: 993565079}
   - component: {fileID: 993565078}
+  - component: {fileID: 993565083}
   m_Layer: 0
   m_Name: bird (5)
   m_TagString: Victim
@@ -6334,6 +6380,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993565083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993565077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &1089177710
 GameObject:
   m_ObjectHideFlags: 0
@@ -6444,6 +6504,7 @@ GameObject:
   - component: {fileID: 1306747755}
   - component: {fileID: 1306747754}
   - component: {fileID: 1306747753}
+  - component: {fileID: 1306747758}
   m_Layer: 0
   m_Name: emeny
   m_TagString: Enemy
@@ -6538,7 +6599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306747752}
   m_LocalRotation: {x: -0, y: 0.23470601, z: -0, w: 0.97206646}
-  m_LocalPosition: {x: 4.93, y: 1.76, z: -0.36}
+  m_LocalPosition: {x: -2.44, y: 3.42, z: -27.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6546,6 +6607,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 27.149, z: 0}
+--- !u!114 &1306747758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306747752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: 2
 --- !u!1 &1358888966
 GameObject:
   m_ObjectHideFlags: 0
@@ -6656,6 +6731,7 @@ GameObject:
   - component: {fileID: 1497805750}
   - component: {fileID: 1497805749}
   - component: {fileID: 1497805748}
+  - component: {fileID: 1497805753}
   m_Layer: 0
   m_Name: bird (1)
   m_TagString: Victim
@@ -6757,6 +6833,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1497805753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497805747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &1699023194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,6 +6860,7 @@ GameObject:
   - component: {fileID: 1699023197}
   - component: {fileID: 1699023196}
   - component: {fileID: 1699023195}
+  - component: {fileID: 1699023200}
   m_Layer: 0
   m_Name: bird (6)
   m_TagString: Victim
@@ -6871,6 +6962,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699023200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699023194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &1731543548
 GameObject:
   m_ObjectHideFlags: 0
@@ -7078,6 +7183,7 @@ GameObject:
   - component: {fileID: 1804577087}
   - component: {fileID: 1804577086}
   - component: {fileID: 1804577085}
+  - component: {fileID: 1804577090}
   m_Layer: 0
   m_Name: bird (3)
   m_TagString: Victim
@@ -7179,6 +7285,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1804577090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804577084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &1888900780
 GameObject:
   m_ObjectHideFlags: 0
@@ -7192,6 +7312,7 @@ GameObject:
   - component: {fileID: 1888900783}
   - component: {fileID: 1888900782}
   - component: {fileID: 1888900781}
+  - component: {fileID: 1888900786}
   m_Layer: 0
   m_Name: bird
   m_TagString: Victim
@@ -7293,6 +7414,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1888900786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888900780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &1955701411
 GameObject:
   m_ObjectHideFlags: 0
@@ -7306,6 +7441,7 @@ GameObject:
   - component: {fileID: 1955701414}
   - component: {fileID: 1955701413}
   - component: {fileID: 1955701412}
+  - component: {fileID: 1955701417}
   m_Layer: 0
   m_Name: bird (7)
   m_TagString: Victim
@@ -7407,6 +7543,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955701417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955701411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5702cd405054f848867b5651189abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 723211726}
+  forceMultiplier: -2
 --- !u!1 &2002502705
 GameObject:
   m_ObjectHideFlags: 0
