@@ -8,13 +8,13 @@ public class BasicMovement : MonoBehaviour
     public GameObject[] hazards;
     Vector3 startPos;
     public AudioClip dethlul;
-    AudioSource player;
+    AudioSource audPlayer;
 
     // Start is called before the first frame update
     void Start()
     {
         startPos = transform.position;
-        player = GetComponent<AudioSource>();
+        audPlayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -53,7 +53,7 @@ public class BasicMovement : MonoBehaviour
             Debug.Log("you are hazards ): lul");
             //Destroy(gameObject);
             transform.position = startPos;
-            player.PlayOneShot(dethlul, .75f);
+            audPlayer.PlayOneShot(dethlul, .75f);
            }
         }
     }
