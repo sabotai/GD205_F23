@@ -25,6 +25,6 @@ public class UIFunctions : MonoBehaviour
 
     public void ChangeScene(){
         //add code to change scene
-        SceneManager.LoadScene("Week3");
+        SceneManager.LoadScene("Week8");
     }
 }
